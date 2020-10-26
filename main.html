@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Css/maincss.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Main Page</title>
+</head>
+<body>
+<nav class="navbar">
+  <span class="open-slide">
+    <a href="#" onmouseover="openSlideMenu()"><!-- openSlideMenu Is a function and opens the menu on the side when hovered over -->
+      <svg width="30" height="30">
+        <path d="M0,5 25,5" stroke="#fff" stroke-width="3.55"/>    <!-- These are the menu on the top left of the screen -->
+        <path d="M0,14 25,14" stroke="#fff" stroke-width="3.55"/>  <!-- These are the menu on the top left of the screen -->
+        <path d="M0,23 25,23" stroke="#fff" stroke-width="3.55"/>  <!-- These are the menu on the top left of the screen -->
+      </svg>
+    </a>
+  </span>
+  <ul class="navbar-nav">     <!-- Front page part of the nav bar -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="main.html">Reviews</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+  </ul>
+</nav>
+
+<div id="side-menu" class="side-nav">   <!-- The slide menu that opens is all here -->
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="#">About</a>
+  <a href="main.html">Reviews</a>
+  <a href="#">lorem</a>
+  <a href="#">lorem</a>
+  <a href="#">lorem</a>
+</div>
+<!-- the body is the name i have used for the whole page with all content -->
+<div id="body">
+  <div class="scrollbar" id="style-1">
+  <!-- POSTER -->
+  <div class="posterSection">
+    <div id="posterImage">
+      poster image
+    </div>
+    <div id="movieSelect">
+      movie select
+    </div>
+  </div>
+
+  <!-- Input section -->
+  <div class="actionSection">
+    <form >
+    <input id="Tr" type="button" value="Top Rated" onclick="window.location.href='#'" />
+    </form>
+  <form >
+    <input id="Lr"type="button" value="Worst movies" onclick="window.location.href='#'" />
+  </form>
+
+  <form>
+  <input id="SearchInput" type="text" name="search" placeholder="Search..">
+</form>
+<div id="Botborder"></div>
+   </div>
+  </div>
+
+  <!-- MOVIE CARDS each card has own div -->
+  <div class="movieCardSection">
+    <a href="Logan.html"><div class="moviecard" id="moviecard-Logan"data-name="Logan">
+      <div class="movieScore hidden">
+      71%
+      </div>
+    </div></a>
+    <a href="Moana.html"><div class="moviecard" id="moviecard-Moana" data-name="Moana">
+      <div class="movieScore hidden">
+        66%
+      </div>
+    </div> </a>
+    <a href="GIS.html"><div class="moviecard"  id="moviecard-GIS"data-name="Ghosts in the shell">
+      <div class="movieScore hidden">
+        38%
+      </div>
+    </div></a>
+    <a href="Passangers.html"><div class="moviecard" id="moviecard-Passangers"data-name="Passangers">
+      <div class="movieScore hidden">
+      76%
+      </div>
+    </div></a>
+    <a href="HotShots.html"><div class="moviecard" id="moviecard-HotShots"data-name="HotShots">
+      <div class="movieScore hidden">
+        85%
+      </div>
+    </div></a>
+    <a href="Fury.html"><div class="moviecard" id="moviecard-Fury"data-name="Fury">
+      <div class="movieScore hidden">
+      65%
+      </div>
+    </div></a>
+    <a href="Equilibrium.html"><div class="moviecard" id="moviecard-Equilibrium" data-name="Equilibrium">
+      <div class="movieScore hidden">
+        55%
+      </div>
+    </div></a>
+    <a href="WonderWoman.html"><div class="moviecard" id="moviecard-WonderWoman"data-name="WonderWoman">
+      <div class="movieScore hidden">
+      20%
+      </div>
+    </div></a>
+    <a href="Kubo.html"><div class="moviecard" id="moviecard-Kubo"data-name="Kubo">
+
+      <div class="movieScore hidden">
+        66%
+      </div>
+    </div></a>
+    <a href="Airplane.html"><div class="moviecard" id="moviecard-Airplane"data-name="Airplane">
+
+      <div class="movieScore hidden">
+        40%
+      </div>
+    </div></a>
+    <a href="Sweeny.html"><div class="moviecard" id="moviecard-Sweeny"data-name="Sweeny">
+      <div class="movieScore hidden">
+        70%
+      </div>
+    </div></a>
+    <a href="Going.html"><div class="moviecard" id="moviecard-Going"data-name="Going">
+
+      <div class="movieScore hidden">
+        76%
+      </div>
+    </div></a>
+    <a href="Brian.html"><div class="moviecard" id="moviecard-Brian"data-name="Brian">
+
+      <div class="movieScore hidden">
+        70%
+      </div>
+    </div></a>
+    <a href="FistFight.html"><div class="moviecard" id="moviecard-Fistfight"data-name="Fistfight">
+
+      <div class="movieScore hidden">
+        43%
+      </div>
+    </div></a>
+    <a href="AliG.html"><div class="moviecard" id="moviecard-AliG"data-name="AliG">
+      <div class="movieScore hidden">
+        90%
+      </div>
+    </div></a>
+    <a href="Hitmansbody.html"><div class="moviecard" id="moviecard-Hitmansbody"data-name="Hitmansbody">
+      <div class="movieScore hidden">
+        61%
+      </div>
+    </div></a>
+    <a href="GoG2.html"><div class="moviecard" id="moviecard-GoG2"data-name="GoG2">
+      <div class="movieScore hidden">
+        76%
+      </div>
+    </div></a>
+    <a href="Jhonwick2.html"><div class="moviecard" id="moviecard-Jhonwick2"data-name="Jhonwick2">
+      <div class="movieScore hidden">
+        80%
+      </div>
+    </div></a>
+    <a href="TheMummy.html"><div class="moviecard" id="moviecard-TheMummy"data-name="TheMummy">
+      <div class="movieScore hidden">
+        40%
+      </div>
+    </div></a>
+    <a href="LegoMovie.html"><div class="moviecard" id="moviecard-LegoMovie"data-name="LegoMovie">
+      <div class="movieScore hidden">
+        80%
+      </div>
+    </div></a>
+    <a href="HitchhikersGtG.html"><div class="moviecard" id="moviecard-HitchhikersGtG"data-name="HitchhikersGtG">
+      <div class="movieScore hidden">
+        70%
+      </div>
+    </div></a>
+    <a href="DrStrange.html"><div class="moviecard" id="moviecard-DrStrange"data-name="DrStrange">
+      <div class="movieScore hidden">
+        60%
+      </div>
+    </div></a>
+    <a href="DarkTower.html"><div class="moviecard" id="moviecard-DarkTower"data-name="DarkTower">
+      <div class="movieScore hidden">
+        35%
+      </div>
+    </div></a>
+    <a href="EmpNG.html"><div class="moviecard" id="moviecard-EmpNG"data-name="EmpNG">
+      <div class="movieScore hidden">
+        50%
+      </div>
+    </div></a>
+    <a href="Tangled.html"><div class="moviecard" id="moviecard-Tangled"data-name="Tangled">
+      <div class="movieScore hidden">
+        83%
+      </div>
+    </div></a>
+    <a href="Cars3.html"><div class="moviecard" id="moviecard-Cars3"data-name="Cars3">
+      <div class="movieScore hidden">
+        60%
+      </div>
+    </div></a>
+    <a href="AmericanMade.html"><div class="moviecard" id="moviecard-AmericanMade"data-name="AmericanMade">
+      Movie #28
+      <div class="movieScore hidden">
+      30%
+      </div>
+    </div></a>
+    <a href="LoganLucky.html">  <div class="moviecard" id="moviecard-LoganLucky"data-name="LoganLucky">
+      Movie #29
+      <div class="movieScore hidden">
+        DNF
+      </div>
+    </div></a>
+    <a href="JusticeLeauge.html"><div class="moviecard" id="moviecard-JusticeLeauge"data-name="JusticeLeauge">
+      Movie #30
+      <div class="movieScore hidden">
+        65%
+      </div>
+    </div></a>
+  </div>
+</div>
+
+<!-- SEARCH GRID -->
+<div id="searchGrid" class="hideElement">
+  Search Grid!
+</div>
+
+
+<!--<div id="lowerbody">
+  <div class="cardcontainer">
+    <div id="card">
+    </div>
+  </div>
+</div>-->
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
